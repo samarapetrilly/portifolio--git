@@ -17,28 +17,27 @@ int main()
     // Inicio do programa
     
     cout << "----CADASTRO----\n";
-    cout << "----------------";
 
-    cout << "Informe seu Nome:";
+    cout << "Informe seu Nome: ";
     cin>>nome;
-    cout << "----------------";
+    cout << "----------------\n";
 
-    cout<<"Informe sua Idade:";
+    cout<<"Informe sua Idade: ";
     cin>>idade;
-    cout << "----------------";
+    cout << "----------------\n";
 
-    cout<<"Informe sua Nacionalidade:";
+    cout<<"Informe sua Nacionalidade: ";
     cin>>nacionalidade;
-    cout << "----------------";
+    cout << "----------------\n";
 
     fflush(stdin);
-    cout<<"Informe seu Endereco:";
+    cout<<"Informe seu Endereco: ";
     getline(cin,endereco);
-    cout << "----------------";
+    cout << "----------------\n";
 
-    cout<<"Informe seu Genero:";
+    cout<<"Informe seu Genero: ";
     cin>>genero;
-    cout << "----------------";
+    cout << "-------------------------------\n";
 
     // Impressão de dados no terminal
     cout<<"\n\n-------Imprimindo Dados Informados-------";
