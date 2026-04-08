@@ -12,7 +12,7 @@ int main(){
 
     //Saudação Inicial
     cout << "Seja bem-vindo(a) ao programa\n";
-    cout << "Tudo bem com voce? :)";
+    cout << "Tudo bem com voce? :)\n\n";
 
     // Entrada do nome do usuario
     cout << "Qual o seu nome? ";
@@ -20,8 +20,8 @@ int main(){
 
     // Saudação personalizada
     cout << "Que nome bonito ;)\n";
-    cout << "Olá, " << nome << "!";
-    cout << "Prazeremteconhecer.";
+    cout << "Olá, " << nome << "!\n";
+    cout << "Prazer em te conhecer.";
 
     return 0;
 }
