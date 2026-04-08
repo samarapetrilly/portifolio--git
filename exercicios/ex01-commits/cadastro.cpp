@@ -14,7 +14,7 @@ int main()
     string endereco = "";
 
     cout << "----CADASTRO----\n";
-    
+
     cout << "Informe seu Nome: ";
     cin>>nome;
 
@@ -28,6 +28,11 @@ int main()
     cout<<"Informe seu Endereco: ";
     getline(cin,endereco);
 
-    
+    cout<<"\n\n-------Imprimindo Dados Informados-------";
+    cout<<"\nNome: " << nome <<".";
+    cout<<"\nIdade: " << idade <<".";
+    cout<<"\nNacionalidade: " << nacionalidade <<".";
+    cout<<"\nEndereco: " << endereco << ".";
+
     return 0;
 }
