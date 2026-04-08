@@ -12,14 +12,15 @@ int main()
     
     inicio:
 
-    cout << "Raiz Quadrada\n";
+    cout << "Seja Bem-Vindo(a)";
+    cout << "|-----Calculadora de Raiz Quadrada-----|n";
 
     cout << "Informe o valor da raiz: ";
     cin >> x;
 
     double raiz_de_x = sqrt(x);
     
-    cout<<"Resultado: " << x;
+    cout<<"Raiz Quadrada de " << x << " = " << raiz_de_x << ".\n\n";
     
     cout << "Desejacalcular.outra raiz? (s/n): ";
     cin >> opc;
