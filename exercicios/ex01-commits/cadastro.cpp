@@ -7,12 +7,14 @@ int main()
 {
     system("cls");
 
-    
+    // Declaração de variavéis
     int idade = 0;
     char nome[20] = "";
     char nacionalidade[15] = "";
     string endereco = "";
 
+    // Inicio do programa
+    
     cout << "----CADASTRO----\n";
 
     cout << "Informe seu Nome: ";
@@ -28,6 +30,7 @@ int main()
     cout<<"Informe seu Endereco: ";
     getline(cin,endereco);
 
+    // Impressão de dados no terminal
     cout<<"\n\n-------Imprimindo Dados Informados-------";
     cout<<"\nNome: " << nome <<".";
     cout<<"\nIdade: " << idade <<".";
