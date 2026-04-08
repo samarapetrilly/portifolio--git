@@ -7,11 +7,11 @@ int main()
 {
     system("cls");
 
-    // Inicializa as variavéis
+    // Declaração das variaveis
     double x = 0;
     char opc;
     
-    // Ponto de reinicio
+    // Ponto de reinicio do programa
     inicio:
 
     // Mensagem inicial
@@ -22,14 +22,15 @@ int main()
     cout << "Informe o valor da raiz: ";
     cin >> x;
 
-    // Calcular as raízes
+    // Calculo da raiz
     double raiz_de_x = sqrt(x);
     
-    // Imprimir no terminal
+    // Imprimessão no terminal
     cout<<"Raiz Quadrada de " << x << " = " << raiz_de_x << ".\n\n";
     
     // Reiniciar o programa
     cout << "Deseja calcular outra raiz? (s/n): ";
+
     cin >> opc;
 
     if(opc == 's' or opc == 'S'){
