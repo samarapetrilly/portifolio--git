@@ -15,8 +15,8 @@ int main()
     inicio:
 
     // Mensagem inicial
-    cout << "Boas Vindas!\n";
-    cout << "|-----Calcule a Raiz Quadrada-----|\n";
+    cout << "Seja Bem-Vindo(a)";
+    cout << "|-----Calculadora de Raiz Quadrada-----|n";
 
     // Entrada do usuário
     cout << "Informe o valor da raiz: ";
@@ -25,11 +25,12 @@ int main()
     // Calculo da raiz
     double raiz_de_x = sqrt(x);
     
-    // Impressão no terminal
-    cout<<"Raiz quadrada = " << x;
+    // Imprimessão no terminal
+    cout<<"Raiz Quadrada de " << x << " = " << raiz_de_x << ".\n\n";
     
     // Reiniciar o programa
-    cout << "Deseja calcular novamente? (s/n): ";
+    cout << "Deseja calcular outra raiz? (s/n): ";
+
     cin >> opc;
 
     if(opc == 's' or opc == 'S'){
