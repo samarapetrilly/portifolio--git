@@ -28,21 +28,21 @@ portfolio--git/
 ## Exercícios
 
 ### Commits Semânticos
-** - Pasta:** `exercicios/ex01-commits/`
+- Pasta: `exercicios/ex01-commits/`
 - Exemplos de commits semânticos seguindo o padrão Conventional Commits.
 
 ### Branches
-** - Pasta:** `exercicios/ex02-branches/` 
+- Pasta: `exercicios/ex02-branches/` 
 - Prática de criação e uso de branches.
 
 ### Conflito de Merge
-** - Pasta:** `exercicios/ex03-conflito/`
-- - Demonstração de conflito ao mexer no mesmo trecho do mesmo arquivo em duas branches.  
+- Pasta: `exercicios/ex03-conflito/`
+- Demonstração de conflito ao mexer no mesmo trecho do mesmo arquivo em duas branches.  
 - Conflito resolvido manualmente e documentado em `registro.md`. 
 
 ### Projeto
-** Pasta:** `projeto/hello-world/`
-Programa simples usado para demonstrar alterações no código e histórico de commits.
+- Pasta: `projeto/hello-world/`
+- Programa simples usado para demonstrar alterações no código e histórico de commits.
 
 ## Tecnologias Utilizadas
 - Git e GitHub
